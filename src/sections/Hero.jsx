@@ -1,6 +1,7 @@
 import React from "react";
 import { words } from "../constants";
 import Button from "../components/button";
+import HeroExperience from "../components/HeroModels/HeroExperience";
 
 const Hero = () => {
   return (
@@ -48,6 +49,11 @@ const Hero = () => {
           </div>
         </header>
         {/* RIGHT: 3D MODEL */}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
